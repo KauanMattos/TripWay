@@ -74,10 +74,27 @@ body {
     cursor: pointer;
 }
 
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact img {
+    width: 450px;
+    border: 2px solid var(--primary-color);
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 2rem auto;
 }
 
 .contact-form input, select {
@@ -86,13 +103,16 @@ body {
     border: 1px solid #ccc;
 }
 
-button {
+button{
     background-color: var(--secondary-color);
     color: white;
     border: none;
-    padding: 0.6rem;
+    padding: 0.6rem 4rem;
     border-radius: 8px;
     cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    margin-bottom: 1.5rem;
 }
 
 button:hover {
