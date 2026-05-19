@@ -1,0 +1,22 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIAVEIS */
+:root {
+    --primary-color:#0f172a;
+    --secondary-color:#38bdf8;
+    --background-color:#f8fafc;
+    --text-color:#1e293b;
+    --white:#fff;
+}
+
+/* BODY */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
