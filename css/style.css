@@ -46,7 +46,7 @@ body {
     color: var(--secondary-color);
 }
 
-/* CONTAINER */
+/* CONTAINER () */
 .cards-container {
     display: flex;
     gap: 2rem;
@@ -72,6 +72,10 @@ body {
     border: 2px solid var(--primary-color);
     transition: 0.3s;
     cursor: pointer;
+}
+
+.escolher-destino {
+    margin-top: 40px;
 }
 
 .contact {
