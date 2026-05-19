@@ -19,7 +19,7 @@ No Checkpoint 2, o projeto foi evoluído com CSS, identidade visual, layout com 
 - CSS3
 - Git
 - GitHub
-- 
+
 ## Páginas
 - Home
 - Destinos
