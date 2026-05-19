@@ -1,20 +1,27 @@
-🚀 Projeto CP Front-End
+# TripWay
+## Integrantes
+- Kauan Sfrizo Mattos - 571599
+- Diego de Oliveira Zanon Harnisch - 568945
 
-Projeto desenvolvido para a Checkpoint de Front-End.
+## Descrição
+Projeto desenvolvido para a disciplina de Front-End, com o ob
+jetivo de criar um site multipágina para uma empresa fictícia
+Checkpoint 2 — TripWay: Estilização, Layout e Responsividade com CSS 8
+de viagens.
 
-📌 Descrição
+## Evolução do Projeto
+No Checkpoint 1, o foco foi a estrutura HTML, páginas, navega
+ção, formulário e colaboração com GitHub.
+No Checkpoint 2, o projeto foi evoluído com CSS, identidade visual, layout com Flexbox e responsividade.
 
-Site feito em HTML com páginas de navegação entre conteúdos.
-
-🛠️ Tecnologias
-HTML
-Git e GitHub
-
-▶️ Como executar
-
-Abra o arquivo index.html no navegador
-ou use o Live Server no VSCode.
-
-👥 Integrantes
-Kauan Mattos
-Diego Oliveira
+## Tecnologias Utilizadas
+- HTML5
+- CSS3
+- Git
+- GitHub
+- 
+## Páginas
+- Home
+- Destinos
+- Serviços
+- Contato
