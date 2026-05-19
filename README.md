@@ -17,4 +17,4 @@ ou use o Live Server no VSCode.
 
 👥 Integrantes
 Kauan Mattos
-João Vitor
+Diego Oliveira
