@@ -58,6 +58,10 @@ body {
     color: var(--secondary-color);
 }
 
+#main-title{
+    letter-spacing: 1px;
+}
+
 /* HEADER */
 
 .header-container {
@@ -133,8 +137,7 @@ body {
 }
 
 .card:hover {
-    border: 2px solid var(--primary-color);
-    transition: 0.3s;
+    box-shadow: 0 6px 15px var(--secondary-color);
     cursor: pointer;
 }
 
@@ -161,7 +164,7 @@ body {
     gap: 1rem;
 
     width: 100%;
-    max-width: 1000px;
+    max-width: 600px;
     margin: 2rem auto;
 }
 
@@ -185,4 +188,37 @@ button{
 
 button:hover {
     opacity: 0.8;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+
+    .contact-form {
+        max-width: 90%;
+    }
+
+    .contact img {
+        width: 90%;
+    }
 }
