@@ -155,18 +155,24 @@ body {
     gap: 12px;
     margin-top: 20px;
 
-    padding: 20px;
+    padding: 50px;
     border-radius: 12px;
     background-color: #f5f5f5;
     border: solid 2px var(--primary-color);
-    width: fit-content;
+    width: 40rem;
     margin-left: auto;
     margin-right: auto;
 }
 
+.form-destiny, 
+.destinations {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 .form-destiny select,
 .form-destiny button {
-    padding: 10px;
+    padding: 20px;
     border-radius: 8px;
 }
 
